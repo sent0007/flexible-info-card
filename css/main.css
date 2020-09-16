@@ -17,11 +17,32 @@ html {
   box-sizing: inherit;
 }
 
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+li img {
+  max-width: 5rem;
+}
+
 a {
   background-color: #444;
   color: #fff;
   padding: 1rem;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
+}
 
+li {
+  list-style-type: none;
+}
+
+section {
+  background-color: #c9c9c9;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
 }
